@@ -54,6 +54,43 @@ footer{border-top:1px solid var(--line);background:#10161355}
 @media(max-width:760px){.stats{grid-template-columns:1fr}.stat{padding:14px}.back-top{right:12px;bottom:12px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
 
+
+/* Bảng màu sáng: giấy ngà, xanh di sản và vàng đồng */
+:root{--ink:#26372e;--muted:#5c6c61;--bg:#fbf8ef;--panel:#f0eee3;--gold:#a66b18;--red:#a84332;--line:#344b391f;--green:#477653;--glow:#a66b1830}
+body{background-color:var(--bg);background-image:radial-gradient(ellipse at 10% 0%,#dce9d755,transparent 38%),radial-gradient(ellipse at 90% 25%,#f0d9b933,transparent 34%);color:var(--ink)}
+a{color:#875411}
+header{background:#fbf8eff0;border-bottom:1px solid #344b3922;box-shadow:0 8px 30px #3a422012}
+.brand{color:var(--ink)}
+nav a{color:#526458}
+nav a:hover{color:#875411}
+.hero h1 em{color:#a66b18}
+.eyebrow,.kicker{color:#875411}
+.lead,.head p,.muted,.card p,.event p,footer{color:var(--muted)}
+.btn{background:#b77a25;color:#fffdf6}
+.btn.alt{color:var(--ink);border-color:#344b3933}
+.art{background:radial-gradient(circle at 50% 42%,#f2d9a2 0,#c7d7bd 35%,#e6e7d8 72%);border-color:#b77a2540;box-shadow:0 24px 60px #344b3918}
+.sun{background:linear-gradient(145deg,#f5d98c,#b84d36);box-shadow:0 0 70px #b77a2525}
+.drum{border-color:#a66b18}
+.art-label{color:#344b39b8}
+section{border-top-color:var(--line)}
+.card{background:linear-gradient(145deg,#ffffff,#f5f1e6);border-color:var(--line);box-shadow:0 8px 24px #344b3908}
+.event{background:#fffdf7;border-color:var(--line);box-shadow:0 8px 24px #344b3908}
+.date,.stat strong{color:#875411}
+.note{background:#f3e6c6;border-left-color:#b77a25}
+.note p{color:#526458}
+.pill{color:#477653;border-color:#c5d4c6}
+::selection{background:#d7b46d;color:#26372e}
+.progress-track{background:#344b3914}
+.progress-bar{background:linear-gradient(90deg,#a84332,#c18a32);box-shadow:0 0 10px #c18a3233}
+.card:hover,.event:hover{border-color:#b77a2577;box-shadow:0 18px 38px #344b3918}
+.card .icon{background:#e9d8b65c}
+#hinh-anh figcaption h3{color:#875411}
+.stat{background:linear-gradient(135deg,#f1e5c94d,#ffffff);border-color:#344b3922}
+.back-top{background:#fffdf7;color:#875411;border-color:#b77a2566;box-shadow:0 8px 25px #344b3920}
+.back-top:hover{background:#b77a25;color:#fffdf6}
+footer{background:#f0eee366;border-top-color:var(--line)}
+@media(prefers-color-scheme:dark){/* Giữ bảng màu sáng đồng nhất trên mọi thiết bị */ }
+
 </style>
 </head>
 <body>
